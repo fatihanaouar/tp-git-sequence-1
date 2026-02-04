@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include <iostream>
 int main()
 {
-printf("\nafficher un message bien venu\n");
+std::cout << "Bienvenue le monde !" << std::endl;
 return 0;
 }
