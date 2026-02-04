@@ -1,6 +1,7 @@
+#include "fonction-bienvenue.h"
 #include <iostream>
 int main()
 {
-std::cout << "Bienvenue le monde !" << std::endl;
+afficherBienvenue();
 return 0;
 }
