@@ -1,13 +1,8 @@
-# Bienvenue 
-Programme C++ qui affiche "Bienvenue le monde !" en utilisant la fonction `afficherBienvenue()`. 
-c'est une autre modification
-c'est autre+++++++++++
-$ make rebuild
-Fabrication du programme : bienvenue
+# Bienvenue
+#j'ai ajouté ça 
+#Fabrication du programme : bienvenue
 rm -f *.o
 g++ -c -Wall -std=c++11 bienvenue.cpp
 g++ -c -Wall -std=c++11 fonction-bienvenue.cpp
 g++ -o bienvenue bienvenue.o fonction-bienvenue.o
 
-$ ./bienvenue
-Bienvenue le monde !
